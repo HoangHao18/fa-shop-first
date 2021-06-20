@@ -18,6 +18,14 @@ import{
 } from 'react-router-dom'
 import Home from './page/Home';
 import Login from './page/Login';
+import About from './page/About';
+import Contact from './page/Contact';
+import Sale from './page/Sale';
+import Cart from './page/Cart';
+import Blog from './page/Blog';
+
+
+
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { actGetCurrentUserInforAsync } from './Store/currentuser/actions';
@@ -43,6 +51,11 @@ function App() {
         <HeaderBar/>
           <Route exact path="/" component={Home}/>
           <Route path="/login" component={Login}/>
+          <Route path="/about" component={About}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/sale" component={Sale}/>
+          <Route path="/cart" component={Cart}/>  
+          <Route path="/blog" component={Blog}/>  
         <Footer/>
       </div>
 

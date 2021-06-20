@@ -1,0 +1,22 @@
+
+.cart-container{
+   
+    .title-col{
+        .name-col, .price-col, .quantity-col, .price-total-col, .button-col{
+            padding: 30px 30px 30px 0px;
+            h3{
+                color: #555;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+
+        .name-col{
+            h3{
+                text-align: center;
+            }
+        }
+
+    }
+   
+}

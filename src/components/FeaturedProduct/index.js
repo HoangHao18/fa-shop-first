@@ -1,6 +1,6 @@
 import './style.scss'
 import MyButton from '../MyButton'
-export default function FeaturedProduct({image="/assets/images/tp_watch.png"}){
+export default function FeaturedProduct({image="/assets/images/tp_watch.png", name="Watch black", price="165.90"}){
     return (
         <div className="featured-product">
             <div className="fp-image">
@@ -9,8 +9,8 @@ export default function FeaturedProduct({image="/assets/images/tp_watch.png"}){
                 
             </div>
             <div className="fp-info">
-                <a className="fp-name">Watch black</a>
-                <span className="fp-price">$165.90</span>
+                <a className="fp-name">{name}</a>
+                <span className="fp-price">${price}</span>
             </div>
         </div>
     )

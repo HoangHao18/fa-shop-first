@@ -6,6 +6,7 @@ import SeparatorBar from '../../components/SeparatorBar'
 import ListBlogBox from '../../components/ListBlogBox'
 import FPSlider from '../../components/FPSlider'
 
+
 export default function Home(){
     return(
         <div className="">
@@ -13,6 +14,7 @@ export default function Home(){
             <HeaderSlider/>
             <SeparatorBar/>
             <div className="container">
+                
                 <ListProducts/> 
 
                 <SeparatorBar/>

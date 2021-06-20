@@ -34,10 +34,6 @@ export function actSetHeaderGetInforUser(userId,clientId,token){
 }
 
 
-
-
-
-
 export function actSetLoginAsync({
     PhoneNumber,
     Password

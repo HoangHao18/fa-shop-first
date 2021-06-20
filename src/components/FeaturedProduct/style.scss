@@ -21,8 +21,10 @@
         .btn-add-to-cart{
             position: absolute; 
             left: 50%;
-            transform: translateX(-50%);
-            z-index: 2;
+            bottom: 0px;
+            transform: translate(-50%,101%);
+            z-index: 2;  
+            transition: all 0.8s;
             //display: none;
         }
         &:hover{      
@@ -31,9 +33,9 @@
                 display: inline-block;
                 
             }
-            .btn-add-to-cart{
+            .btn-add-to-cart{           
                 bottom: 26px;
-                
+                transform: translate(-50%,0%);
             }
         }
         &::before{
